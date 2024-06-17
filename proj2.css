@@ -241,18 +241,17 @@ display: flex;
 
 @media only screen and (max-width: 480px){
     .date-time{
-        width: 34ch;
-        left: 6%;
+        width: 100%;
+        left: 0%;
         top: 9%;
         flex-direction: column;
     }
     .time{
         padding: 49px 41px;
         margin: 0 0;
+        justify-content: space-around;
     }
     .day{
         text-align: center;
-    }
-    
-    
+    } 
 }

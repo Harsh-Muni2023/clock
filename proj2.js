@@ -356,40 +356,40 @@ else{
 }
 
 switch(month){
-        case 1:
+        case 0:
             document.getElementById("month").innerText = "january";
             break;
-        case 2:
+        case 1:
             document.getElementById("month").innerText = "february";
             break;
-        case 3:
+        case 2:
             document.getElementById("month").innerText = "march";
             break;
-        case 4:
+        case 3:
             document.getElementById("month").innerText = "april";
             break;
-        case 5:
+        case 4:
             document.getElementById("month").innerText = "may";
             break;
-        case 6:
+        case 5:
             document.getElementById("month").innerText = "june";
             break;
-        case 7:
+        case 6:
             document.getElementById("month").innerText = "july";
             break;
-        case 8:
+        case 7:
             document.getElementById("month").innerText = "august";
             break;
-        case 9:
+        case 8:
             document.getElementById("month").innerText = "september";
             break;
-        case 10:
+        case 9:
             document.getElementById("month").innerText = "october";
             break;
-        case 11:
+        case 10:
             document.getElementById("month").innerText = "november";
             break;
-        case 12:
+        case 11:
             document.getElementById("month").innerText = "december";
             break;
         

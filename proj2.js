@@ -332,7 +332,12 @@ document.getElementById("month").innerText;
 document.getElementById("day").innerText = day;
 // document.getElementById("hour").innerText = hour +':';
 if(hour>12){
-    document.getElementById("hour").innerText ='0' + (hour - 12) + ':';
+    if((hour-12)>9){
+    document.getElementById("hour").innerText =(hour - 12) + ':';
+    }
+    else{
+        document.getElementById("hour").innerText ='0' + (hour - 12) + ':';
+    }
 }
 else if(hour ===11 && hour ===12){
     document.getElementById("hour").innerText =hour + ':';
